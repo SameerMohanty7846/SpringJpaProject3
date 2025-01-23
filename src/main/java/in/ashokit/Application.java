@@ -15,7 +15,7 @@ public class Application {
 		UserRepository us=context.getBean(UserRepository.class);
 		User u=new User(1,"ALOK","ALOK123");
 		us.save(u);
-		System.out.println("Data Inserted");
+		System.out.println("Data Inserted SUCCESSFULLY");
 	}
 
 }
